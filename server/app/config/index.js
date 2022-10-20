@@ -13,8 +13,8 @@ const getCertificate =() => {
 }
 module.exports = {
   domain: 'xxx.com', // https域名, 可不配置
-  httpPort: 8082,
-  httpsPort: 8083,
+  httpPort: 8880,
+  httpsPort: 2087,
   clientPort: 22022, // 勿更改
   certificate: getCertificate(),
   uploadDir: path.join(process.cwd(),'app/static/upload'),
